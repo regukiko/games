@@ -5,6 +5,7 @@ import stone
 import number
 import stones_100
 import hero_adventure
+import tic_tac
 while True:
     print("1.Word jumble")
     print("2.Gallow")
@@ -12,7 +13,8 @@ while True:
     print("4.Guess the number")
     print("5.Stones")
     print("6.Hero Adventure")
-    print("7.Leave")
+    print("7. Tic Tac")
+    print("8.Leave")
     a=input()
     if a=="1":
         jumble.jumble()
@@ -28,4 +30,6 @@ while True:
     elif a=="6":
         hero_adventure.game()
     elif a=="7":
+        tic_tac.game()
+    elif a=="8":
         break
